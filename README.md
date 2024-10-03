@@ -1,35 +1,43 @@
-ReSecure: Turn Your Old Smartphone into a Home Surveillance Camera
+# 🔒 ReSecure - Home Security System
 
-Introduction:
-    -> ReSecure transforms old smartphones into home surveillance cameras, providing an inexpensive and eco-friendly home security solution.
+**ReSecure** is a mobile application project that repurposes old smartphones into home surveillance cameras. This system consists of two applications—one for the security camera (ReSecure Camera) and one for monitoring (ReSecure User). The project provides a cost-effective, scalable, and user-friendly home security solution using existing technology.
 
-Motivation:
-    -> ReSecure addresses home security needs while promoting environmental sustainability. It supports various smartphone brands and operating systems, ensures secure data transmission, and features an intuitive user interface.
+## 🚀 Project Overview
 
-Key Features:
-    1. Motion detection and real-time alerts
-    2. Secure video streaming and storage
-    3. User access management
-    4. Cross-platform functionality (Android and iOS)
-    5. Developed using Flutter, Firebase, and Dolby.io for live streaming
+ReSecure allows users to turn their old smartphones into security cameras by pairing them with their current phone, using two integrated apps for monitoring and camera setup. This project leverages **Flutter** for cross-platform development and **Firebase** for backend services, offering features like real-time notifications, motion detection, and user management.
 
-Project Goal:
-    -> Develop a dual-application system where an old smartphone functions as a security camera and a companion app on a current phone monitors it.
+### Key Features:
+- **Motion Detection**: Automatically detects motion and sends real-time alerts.
+- **Secure Video Streaming**: Securely streams live footage from the camera to the user.
+- **User Access Management**: Multiple users can access and manage the cameras.
+- **Cross-Platform Support**: Works on both Android and iOS devices.
 
-Development Approach:
-    -> Using the Agile methodology, ReSecure is developed in five phases:
-        1. Planning and Requirement Analysis
-        2. Design and Prototyping
-        3. Development
-        4. Testing and Quality Assurance
-        5. Deployment and Maintenance
-    -> Each phase is split into iterative sprints for continuous feedback and improvement.
+## 🎯 Project Goals
 
-Tools Used:
-    1. Flutter for cross-platform app development
-    2. Google Firebase for database management and real-time notifications
-    3. Dolby.io for live video streaming
+The main objective of ReSecure is to create an accessible and low-cost home security system by utilizing old smartphones as surveillance cameras. 
 
-Applications:
-    1. ReSecure User
-    2. ReSecure Camera
+- Convert old smartphones into functioning security cameras.
+- Provide real-time monitoring and notifications.
+- Ensure secure video streaming and storage using Firebase.
+- Enable user management for controlling access to the cameras.
+
+## 🛠️ Tech Stack & Tools
+
+- **Framework**: Flutter for mobile app development (Android & iOS).
+- **Backend Services**: Google Firebase (Real-time database, authentication, notifications).
+- **Development Tools**: Visual Studio Code, Android Studio, Xcode.
+- **Testing Tools**: Firebase Test Lab, emulators, physical devices.
+
+## 📱 Application Structure
+
+The project is composed of two mobile applications:
+1. **ReSecure User**: App for monitoring and managing the cameras.
+2. **ReSecure Camera**: App that runs on the old smartphone, acting as the surveillance camera.
+   
+## ⚙️ System Workflow
+
+1. **User Registration**: Users register and set up their profiles in the ReSecure User app.
+2. **Camera Setup**: The ReSecure Camera app is installed on an old smartphone and set up to act as a surveillance camera.
+3. **Motion Detection**: The camera detects motion and triggers real-time notifications.
+4. **Access Management**: Users can invite others to access and manage the cameras.
+5. **Live Streaming**: Secure live video streaming from the camera to the ReSecure User app.
